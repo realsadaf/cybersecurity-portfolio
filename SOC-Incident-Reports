@@ -1,1 +1,29 @@
+## Incident Summary
+A phishing email impersonating Microsoft Security was identified and analyzed.
+
+## Detection Method
+User reported suspicious email.
+
+## Indicators of Compromise (IOCs)
+- Sender email: no-reply@micros0ft-support.com
+- Malicious URL: login-microsoft-security[.]com/verify
+- IP Address: N/A (email-based attack)
+
+## Attack Stage
+Initial Access (Phishing)
+
+## MITRE ATT&CK Mapping
+- T1566.001 – Phishing: Spearphishing Link
+
+## Impact Assessment
+Potential credential compromise if link was accessed.
+
+## Containment & Remediation
+- Blocked sender domain
+- Blocked malicious URL
+- User advised to reset password
+- Security awareness reminder issued
+
+## Lessons Learned
+Phishing emails continue to rely on urgency and brand impersonation.
 
